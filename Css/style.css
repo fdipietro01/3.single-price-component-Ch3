@@ -1,0 +1,131 @@
+:root{
+    --text-color: hsl(218, 22%, 67%);
+}
+
+.header-tittle{
+    color: hsl(179, 62%, 43%);
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 27px;
+}
+
+.header-subtittle{
+    color:hsl(71, 73%, 54%);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.header-text{
+    line-height: 12px;
+    color: var(--text-color);
+}
+.header-subtittle, .header-tittle, .header-text{
+    margin-left: 40px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: hsl(204, 43%, 93%);
+    font-family: Karla;
+}
+
+.layout{
+    width: 35%;
+    height: 52%;
+    display: grid;
+    grid-template-rows: 45% 55%; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header{    
+    grid-row: 1/2;
+    background-color: white;
+}
+
+
+
+.main{
+    grid-row: 2/3;
+    background-color: hsl(179, 60%, 43%);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: hsl(204, 43%, 93%);
+    justify-items: center;
+    align-items: center;
+}
+
+.suscription{
+    grid-column: 1/2;
+    width: 80%;
+    height: 80%;
+    display: grid;
+}
+
+.argue{
+    grid-column: 2/3;
+    background-color: hsl(179, 49%, 53%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.argue-content{
+    width: 80%;
+    height: 80%;
+}
+
+.argue-tittle, .suscription-tittle{
+    font-weight: 400;
+    color: white;
+}
+
+.suscription-tittle{
+    margin-bottom: 0px;
+    margin-left:15px;
+
+}
+.argue-text{
+    font-size: 14px;
+    line-height: 8px;
+}
+
+.low-text{
+    color: hsl(0, 0%, 95%);
+    font-weight: 100;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left:15px;
+    
+}    
+.price{
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+    font-weight: 700;
+}
+.acces{
+    margin-top: 0px;
+    justify-self: center;
+}
+
+.but{
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
+    border-style: none;
+    color: hsl(0, 0%, 95%);
+    width: 90%;
+    height: 50px;
+    justify-self: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
